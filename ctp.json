@@ -1,0 +1,9 @@
+{
+  "inputs": [
+    "name"
+  ],
+  "replaces": ["**/*.ts", "package.json", "README.md"],
+  "hooks": {
+    "created": ["yarn", "git init"]
+  }
+}
